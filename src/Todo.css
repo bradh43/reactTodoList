@@ -1,0 +1,57 @@
+.todoItem {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.todo-title {
+  width: 75%;
+  display: inline-block;
+}
+
+.todo-title h2 {
+  padding-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+
+}
+
+#checkIcon {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("assets/icons/uncheck.png");
+}
+
+
+#checkIcon:hover {
+  background-image: url("assets/icons/checkHover.png") !important;
+}
+
+.check {
+  background-image: url("assets/icons/check.png") !important;
+}
+
+.strikeText{
+  text-decoration: line-through;
+  color: darkgray;
+}
+
+
+
+#removeIcon {
+  float: right;
+  background-image: url("assets/icons/delete.png");
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+#removeIcon:hover {
+  background-image: url("assets/icons/deleteHover.png");
+}
